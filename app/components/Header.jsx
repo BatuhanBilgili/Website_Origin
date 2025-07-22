@@ -6,7 +6,7 @@ function Header({ isDarkMode }) {
   return (
     <div className='w-11/12 max-w-3xl text-center mx-auto h-screen flex flex-col items-center justify-center gap-6'>
       <div>
-        <Image src={assets.profile_img} alt='' className='rounded-full w-32' />
+        <Image src={assets.profile_img} alt='' className='rounded-3xl w-40' />
       </div>
       <h3 className='flex items-end gap-2 text-xl md:text-2xl mb-3 font-Ovo'>
         Hi! I'm Batuhan Bilgili
