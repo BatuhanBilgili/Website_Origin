@@ -3,12 +3,10 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build && npx prisma generate",
+    "prebuild": "npx prisma generate",
+    "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "prisma": "prisma",
-    "prisma:seed": "node scripts/seed-admin.js"
+    "lint": "next lint"
   },
   "dependencies": {
     "@prisma/client": "^6.11.1",
