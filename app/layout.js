@@ -9,7 +9,7 @@ const ovo = Ovo({
   subsets: ["latin"], weight: ['400'],
 });
 export const metadata = {
-  title: "Portfolio",
+  title: "Batuhan Bilgili",
   description: "",
 };
 
