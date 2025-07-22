@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Image from 'next/image';
-import { assets, infoList, toolsData } from '@/assets/assets';
+import { assets, infoList, toolsData } from '../../assets/assets'
 
 const About = ({ isDarkMode }) => {
   const [aboutText, setAboutText] = useState('');
