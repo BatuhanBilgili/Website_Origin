@@ -1,7 +1,7 @@
 'use client'
 import React, { useEffect, useRef, useState } from 'react'
 import Image from 'next/image'
-import { assets } from '@/assets/assets'
+import { assets } from '../../assets/assets'
 import { useRouter } from 'next/navigation';
 
 const Navbar = ({ isDarkMode, toggleDarkMode }) => {
