@@ -12,7 +12,7 @@ const About = ({ isDarkMode }) => {
   }, []);
 
   return (
-    <div id='about' className='w-full px-4 sm:px-[8%] lg:px-[12%] py-10 scroll-mt-30'>
+    <div id='about' className='w-full px-4 sm:px-[8%] lg:px-[12%] py-10 pt-20 sm:pt-24 scroll-mt-30'>
       <h4 className='text-center mb-2 text-lg font-Ovo'>Introduction</h4>
       <h2 className='text-center text-3xl sm:text-4xl lg:text-5xl font-Ovo'>About Me</h2>
       <div className='flex w-full flex-col lg:flex-row items-center gap-10 lg:gap-20 my-10 lg:my-20'>
