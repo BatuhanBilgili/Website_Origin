@@ -1,4 +1,9 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const nextConfig = {
+  output: 'export', // Statik çıktı almak için şart
+  images: {
+    unoptimized: true, // GitHub Pages görsel optimizasyonunu desteklemediği için şart
+  },
+};
 
-export default nextConfig;
+module.exports = nextConfig;
